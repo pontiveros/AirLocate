@@ -61,7 +61,9 @@ NSString *BeaconIdentifier = @"com.example.apple-samplecode.AirLocate";
     {
         // uuidgen should be used to generate UUIDs.
         // 3BAAAE9A-1D96-4A1F-9C71-17757ED84A1B
-        _supportedProximityUUIDs = @[ [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"],
+        // E2C56DB5-DFFB-48D2-B060-D0F5A71096E0
+        // 2E00D51C-D42B-468D-8BE2-C082BE0CA5C6
+        _supportedProximityUUIDs = @[ [[NSUUID alloc] initWithUUIDString:@"2E00D51C-D42B-468D-8BE2-C082BE0CA5C6"],
                                       [[NSUUID alloc] initWithUUIDString:@"3BAAAE9A-1D96-4A1F-9C71-17757ED84A1B"],
                                       [[NSUUID alloc] initWithUUIDString:@"5A4BCFCE-174E-4BAC-A814-092E77F6B7E5"],
                                       [[NSUUID alloc] initWithUUIDString:@"74278BDA-B644-4520-8F0C-720EAF059935"]];
